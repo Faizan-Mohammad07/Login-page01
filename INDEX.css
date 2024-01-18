@@ -64,6 +64,9 @@ input:valid ~ label {
   position: absolute;
   right: 8px;
   top: 20px;
+  height: 24px;
+  width: 24px;
+  opacity: 80%;
 }
 .forget {
   margin: -15px 0 15px;
@@ -94,6 +97,7 @@ button {
   font-size: 1em;
   font-weight: 600;
   transition: 0.5s;
+  margin-top: 30px;
 }
 .registor {
   text-align: center;
@@ -104,6 +108,7 @@ button {
   text-decoration: none;
   color: rgba(229, 229, 229, 0.803);
   transition: 0.5s;
+  font-weight: 600;
 }
 .registor a:hover {
   color: rgb(6, 37, 46);
